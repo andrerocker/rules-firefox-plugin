@@ -1,0 +1,4 @@
+content     rules    chrome/content/
+content     rules    chrome/content/ contentaccessible=yes
+overlay 	chrome://browser/content/browser.xul chrome://rules/content/browser.xul
+skin	rules	classic/1.0	skin/
