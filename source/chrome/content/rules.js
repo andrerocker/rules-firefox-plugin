@@ -17,7 +17,7 @@ function ativaMenu()
 function adicionaFlyer() 
 {
 	var image = gContextMenu.target.src;
-	var url = "http://localhost:9000/metralhadora/gatling?url="+image;
+	var url = "http://flyers.rules.com.br/metralhadora/gatling?url="+image;
 	processRequest(url);
 }
 
@@ -34,7 +34,7 @@ function processRequestCallback()
 {
    if(request.readyState == 4) 
         if(request.status == 200) 
-			alert("Ok");
+			alert("Adicionado com Sucesso!");
 }
 
 window.addEventListener("load", inicializa, false);

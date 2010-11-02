@@ -7,3 +7,10 @@ mouse sobre imagens disponibilizando a opção "Adicionar ao Rules".
 
 - O site ja esta com um serviço disponivel na URL /metralhadora/gatling que
 espera por uma URL de imagem, apartir dai o resto é por conta desse serviço.
+
+-----
+Melhorias:
+
+- Versão inicial implementada e funcional.
+- Parametrizar URL de serviço.
+- Melhorar mensagens de notificação de adicionado ou não:
