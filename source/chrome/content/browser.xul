@@ -1,11 +1,8 @@
 <?xml version="1.0"?>
 <overlay id="sample" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	    <popup id="contentAreaContextMenu"> 
+	 	  <menuseparator id="rules-separador"/>
+	      <menuitem id="rules-adicionar" label="Adicionar ao Rules" oncommand="adicionaFlyer();"/>  
+	    </popup>
 		<script src="rules.js"/>
-		<menupopup id="menu_ToolsPopup"> 
-			<menuitem label="Adicionar ao Rules" oncommand="adicionaFlyer();"/> 
-		</menupopup>
-
-		<menupopup id="menu_FilePopup"> 
-			<menuitem label="Adicionar ao Rules" oncommand="adicionaFlyer();"/> 
-		</menupopup>
 </overlay>
