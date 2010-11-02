@@ -1,9 +1,11 @@
 <?xml version="1.0"?>
-<?xml-stylesheet href="chrome://rules/skin/skin.css" type="text/css"?> 
-<!DOCTYPE rules SYSTEM "chrome://rules/locale/translations.dtd">
 <overlay id="sample" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 		<script src="rules.js"/>
 		<menupopup id="menu_ToolsPopup"> 
-			<menuitem label="Plugin Teste" oncommand="adicionaFlyer();"/> 
+			<menuitem label="Adicionar ao Rules" oncommand="adicionaFlyer();"/> 
+		</menupopup>
+
+		<menupopup id="menu_FilePopup"> 
+			<menuitem label="Adicionar ao Rules" oncommand="adicionaFlyer();"/> 
 		</menupopup>
 </overlay>
