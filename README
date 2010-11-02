@@ -1,0 +1,9 @@
+Esse projeto tem como objetivo desenvolver um plugin Firefox para facilitar a
+vida do pessoal que mantem o site: http://rules.com.br cadastrando flyers
+semanalmente.
+
+- A ideia inicial é habilitar o uma opção sobre a popup de botão direito do
+mouse sobre imagens disponibilizando a opção "Adicionar ao Rules".
+
+- O site ja esta com um serviço disponivel na URL /metralhadora/gatling que
+espera por uma URL de imagem, apartir dai o resto é por conta desse serviço.
